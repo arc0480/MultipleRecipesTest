@@ -1,0 +1,49 @@
+type: multicraft.MultiCrafter
+name: マルチレシピ魔人
+description:
+'''
+まるちレシピするやーつ
+'''
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+
+recipes: 
+[
+{
+  input: copper/1
+  output: {
+    items: [
+      copper/1
+      graphite/2
+    ]
+    power: 2.5
+  }
+  craftTime: 250.0
+}
+{
+  input: {
+    items: [
+      copper/1 // You can add moded items or fluids
+      lead/1          // the same as "lead/1"
+    ]
+  }
+  output: {
+    fluids: [
+      lead/1
+    ]
+  }
+  craftTime: 210.0
+}
+]
+
+requirements: [
+	Carrot/80 
+	Potato/50 
+	Seed/50
+]
+category: crafting
+research: Salt-Makera
+alwaysUnlocked: true

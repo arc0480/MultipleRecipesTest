@@ -24,7 +24,6 @@ recipes:
   craftTime: 250.0
 }
 {
- {
   input: copper/1
   output: {
     items: [
@@ -35,7 +34,6 @@ recipes:
   }
   craftTime: 250.0
 }
-{
 
 requirements: [
 	lead/50

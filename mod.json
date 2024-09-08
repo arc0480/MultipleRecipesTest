@@ -6,7 +6,7 @@ version: "2.0"
 minGameVersion: "145"
 
 #継承に必要?
-main: MultiCrafterAdapter
-java: true
+#main: MultiCrafterAdapter
+#java: true
 
 dependencies: ["multi-crafter"]

@@ -8,3 +8,5 @@ minGameVersion: "145"
 #継承に必要?
 main: MultiCrafterAdapter
 java: true
+
+dependencies: ["multi-crafter"]

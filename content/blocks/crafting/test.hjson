@@ -40,10 +40,8 @@ recipes:
 ]
 
 requirements: [
-	Carrot/80 
-	Potato/50 
-	Seed/50
+	lead/50
 ]
 category: crafting
-research: Salt-Makera
+research: lead
 alwaysUnlocked: true
